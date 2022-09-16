@@ -1,0 +1,15 @@
+body {
+    background-color: grey;
+}
+
+#output {
+    text-align: center;
+    background-color: ghostwhite;
+    border: 3px black solid;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.title {
+    padding: 1rem;
+}
