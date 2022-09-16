@@ -28,7 +28,7 @@ async function renderPostList() {
     for (const post of postList) {
         //template literal below
        outputElement.innerHTML += `<div class="title">
-    <a href="${post.url}">${post.title}${post.author}</a>
+    <a href="${post.url}">${post.title} : ${post.author}</a>
     </div>`;
        console.log(getPostList(data))
     }
